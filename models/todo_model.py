@@ -9,3 +9,4 @@ class todo(Base):
     title=Column(String,index=True)
     discription=Column(String,nullable=True)
     completed=Column(Boolean,default=False)
+    task_done=Column(Boolean,default=False)
